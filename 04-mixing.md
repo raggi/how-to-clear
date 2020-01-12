@@ -364,10 +364,12 @@ between the bundles in the mix.
 ## Create the initial mix content
 
 ```
-~/mix $ mixer build all
+~/mix $ sudo mixer build all
 <snip>
 
 ```
+
+_note: mixer builds require **root**_
 
 This command creates all the needed content for the version we have
 selected and produces a functional `version 10` content stream that
